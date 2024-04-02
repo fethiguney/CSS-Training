@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.title{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul.menu{
+    background-color: chartreuse;
+    width: 200px;
+    line-height: 3rem;
+    border-radius: 10px;
+
+}
+
+ul.menu li{
+    list-style-type: "✅";
+    list-style-position: inside ;
+    padding-left: 5%;
+    
+}
+
+ul.menu li a{
+    text-decoration: none;
+}
+
+p.content{
+    text-align: justify;
+    font-family: "Jacquarda Bastarda 9", serif;
+}

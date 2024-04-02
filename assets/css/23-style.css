@@ -1,0 +1,50 @@
+nav.navMenu{
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+}
+
+nav.navMenu button.navBtn{
+    background-color: tomato;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav.navMenu ul{
+    display: none;
+    list-style-type: "🍔";
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    background-color: aqua;
+   
+}
+
+nav.navMenu:hover ul{
+    display: block;
+   
+}
+
+nav.navMenu ul li{
+    line-height: 2rem;
+    
+}
+
+nav.navMenu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 10px;
+   
+}
+
+nav.navMenu ul li a:hover{
+    text-decoration: underline;
+    color: white;
+
+}

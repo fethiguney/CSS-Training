@@ -1,0 +1,10 @@
+
+div.box > p{
+    color: red;
+}
+
+ul.list ol > li{
+    color:blue
+}
+
+

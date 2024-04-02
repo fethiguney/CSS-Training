@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+header nav.nav-menu{
+    background-color: rgb(121, 116, 116);
+    text-align: center;
+    padding: 20px;
+   
+}
+
+nav.nav-menu a{
+    color: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav.nav-menu a:hover{
+    color: black;
+}
+
+nav.nav-menu img{
+    width: 20px;
+    height: 20px;
+}
+
+main section{
+    text-align: center;
+    background-color: rgb(59, 52, 52);
+    margin-bottom: 20px;
+    border-radius: 30px;
+   
+   
+    
+    
+}
+
+main section h2{
+    color: whitesmoke;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+main section p{
+    font-size: 1.5rem;
+    color: rgb(121, 110, 110);
+    font-weight: 600px;
+}
+
+main section div.links a{
+    margin-right: 20px;
+    color: steelblue;
+  
+}
+
+main section div.links{
+    margin-bottom: 2rem;
+    
+}
+
+main section div.links a:hover{
+    color: white;
+}
+
+main section.Iphone14{
+    background-color: whitesmoke;
+    color: black;
+}
+
+main section.Iphone14 h2{
+    color: rgb(43, 41, 41);
+}
+
+main section.Iphone14 p{
+    color: black;
+}
+
+main section p.dateSale{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+main section.watch h2 img{
+    width: 38px;
+}
+
+main section p.series{
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 10px;
+
+}
+
+

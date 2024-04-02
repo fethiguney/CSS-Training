@@ -1,0 +1,46 @@
+
+h1.title{
+    color: blue;
+    background-color: violet;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+
+p.about::first-letter{
+    font-size: 2.1rem;
+    color: blue;
+}
+
+p.about::first-line{
+    font-size: 1.5rem;
+    color: rgb(0, 195, 255);
+}
+
+p.about::selection{
+    font-size: 1.5rem;
+    color: rgb(0, 195, 255);
+}
+
+ul.list li::marker{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+h1.title::before{
+    content: "🍰";
+
+    margin-right: 1rem;
+}
+
+h1.title::after{
+    content: "🍰";
+    margin-left: 1rem;
+}
+
+span.spanEl::before{
+    content: "NOTICE : ";
+    font-size: 1rem;
+    font-weight: 500;
+    color: blueviolet;
+}

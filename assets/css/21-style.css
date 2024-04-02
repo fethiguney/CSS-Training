@@ -1,0 +1,31 @@
+h1.title{
+    color: burlywood;
+    background-color: aquamarine;
+    display: inline;
+    width: 150px;
+    height: 250px;
+}
+
+span.spanEl{
+    color: rgb(24, 13, 13);
+    font-size: 1.4rem;
+    display: block;
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p.pEl{
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+button.hidden{
+    display: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 30px;
+}

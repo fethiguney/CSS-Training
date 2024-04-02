@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #B3C8CF;
+    --secondary-color:#BED7DC;
+    --border-color:#F1EEDC;
+    --hover-color:#E5DDC5;
+    --width-element:80px;
+    --height-element:80px;
+    --font-family: "Roboto", sans-serif;
+
+}
+
+h1.title{
+    text-align: center;
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+
+}
+
+button{
+    background-color: var(--primary-color);
+    width: var(--width-element);
+    height: var(--height-element);
+    cursor: pointer;
+}

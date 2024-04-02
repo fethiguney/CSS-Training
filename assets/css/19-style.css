@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+nav.navMenu{
+    background-color: salmon;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+nav.navMenu ul{
+   list-style-type:  "🎶";
+   padding: 0;
+   list-style-position: inside;
+}
+
+nav.navMenu ul li{
+    line-height: 3rem;
+
+}
+
+nav.navMenu ul li a{
+    padding: 8px;
+
+}
+
+nav.navMenu ul li a:hover{
+    color: whitesmoke;
+    background-color: violet;
+    border-radius: 15px;
+}
+
+h1, h2, p.pEl{
+    text-align: center;
+    color: seagreen;
+    font-size: bold;
+    font-family: "Loto", sans-serif;
+}
+

@@ -1,0 +1,26 @@
+div.divEl{
+    background-color: sandybrown;
+    height: 50px;
+    text-align: center;
+}
+
+span.spanEl{
+    background-color: violet;
+
+}
+
+div.divBlock{
+
+    background-color: yellow;
+}
+
+p.pEl{
+    background-color: orangered;
+    width: 100px;
+   /* margin-right: auto;
+    margin-left: auto;*/
+
+    /*margin: 0 auto;*/
+    
+    margin: 0 auto 0 auto;
+}

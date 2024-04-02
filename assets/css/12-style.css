@@ -1,0 +1,20 @@
+a:link{
+    color: goldenrod;
+    font-size: 1.4rem;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: aqua;
+    background-color: rgb(21, 5, 65);
+    cursor: pointer;
+
+}
+
+a:active{
+    color: brown;
+}
+
