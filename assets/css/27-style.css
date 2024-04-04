@@ -7,4 +7,20 @@ ul.list ol > li{
     color:blue
 }
 
+div.box +  a{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+a.link+p{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+div.box ~a{
+    color: rgb(6, 88, 3);
+}
+
+
+
 

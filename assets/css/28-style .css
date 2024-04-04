@@ -1,0 +1,30 @@
+
+.chkBox{
+    display: none;
+}
+
+p.content{
+    text-align: justify;
+}
+
+.chkBox:checked+p.content{
+    background-color: rgb(56, 55, 58);
+    color: azure;
+    font-size: 1.3rem;
+}
+
+.btn-mode{
+    display: inline-block;
+    margin-top: 3rem;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px greenyellow solid;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
