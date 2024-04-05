@@ -1,0 +1,25 @@
+
+.sun-color{
+    color: #ffd43b;
+}
+
+.snow-color{
+    color: #74C0FC;
+}
+
+.cloud-rain-color{
+    color: #63E6BE;
+}
+
+ul.list{
+    list-style-type: none;
+    display: flex;
+  
+}
+
+.margin-10{
+    margin: 10px;
+}
+
+
+
