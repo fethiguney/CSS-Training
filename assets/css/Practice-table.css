@@ -1,0 +1,55 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #cef3e7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e4f1f1;
+}
+
+.fa-trash {
+    color: rgb(235, 72, 7);
+    cursor: pointer;
+}
+
+.fa-pen-to-square{
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+
+.continue-shopping, .complete-payment {
+   display: inline-flex;
+   justify-content: center;
+   margin: 20px;
+   background-color: cadetblue;
+   padding: 10px 20px;
+   float: right;
+    
+}
+
+ .continue-shopping i, .complete-payment i{
+    margin-right: 10px;
+
+}
+
+.continue-shopping a, .complete-payment a{
+    text-decoration: none;
+    color: burlywood ;
+
+}
+
