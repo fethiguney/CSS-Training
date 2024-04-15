@@ -1,0 +1,38 @@
+
+.bg{
+    padding: 50px;
+    margin: 50px;
+    margin-bottom: 2rem;
+}
+
+
+.bg-1{
+    background-image: linear-gradient(yellow, violet, rgb(0, 153, 255));
+}
+
+.bg-2{
+    background-image: linear-gradient(to right,yellow, violet, rgb(0, 153, 255));
+}
+
+.bg-3{
+    background-image: linear-gradient(to left,yellow, violet, rgb(0, 153, 255));
+}
+
+.bg-4{
+    background-image: linear-gradient(30deg,yellow, violet, rgb(0, 153, 255));
+}
+
+.bg-4{
+    background-image: linear-gradient(yellow 20%, violet 30%, rgb(0, 153, 255)50%);
+}
+
+.bg-5{
+    background-image: radial-gradient(circle,yellow , violet , rgb(0, 153, 255));
+}
+
+
+.bg-6{
+    background-image: radial-gradient(ellipse,yellow , violet , rgb(0, 153, 255));
+}
+
+
