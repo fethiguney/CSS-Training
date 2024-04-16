@@ -1,0 +1,19 @@
+
+h1.title{
+    color: blue;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.divEl{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    transform: translateX(40%);
+}
+
+.iphone{
+    transform: translate(100px, 120px) rotate(65deg) scale(1.2);
+}
