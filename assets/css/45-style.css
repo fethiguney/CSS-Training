@@ -1,0 +1,21 @@
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.title-1:hover{
+    text-shadow: 1px 1px 2px rgb(26, 24, 24), 2px 2px 2px red ;
+
+}
+
+.title-2{
+    text-shadow: 1px 1px 5px rgb(59, 26, 26);
+}
+
+.title-3{
+    box-shadow: 1px 1px 5px rgb(91, 201, 91);
+}

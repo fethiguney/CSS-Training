@@ -1,0 +1,53 @@
+.title{
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+    transition: background-color 1s, color 1s;
+
+}
+
+.title:hover{
+    background-color: violet;
+    color: yellow;
+    cursor: pointer;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin:3rem;
+}
+
+.box-1{
+    background-color: brown;
+    border-radius: 50%;
+    transition: background-color ease-in 2s, border-radius  ease-out 2s;
+}
+
+.box-1:active{
+    background-color: turquoise;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+.btn{
+    background-color: teal;
+    display: flex;
+    padding: 10px;
+    margin: 5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 3px solid rebeccapurple;
+    cursor: pointer;
+    transition: all linear 0.5s;
+
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    border: none;
+    color: violet;
+    transform: scale(1.1) translate(30%);
+}
